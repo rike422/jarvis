@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
 gem "lita"
-
+gem "lita-slack"
+gem "lita-bitly"
+gem "lita-dig"
+gem "lita-github"
+gem "lita-sendgrid-watch", github: 'rike422/lita-sendgrid-watch'
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 
